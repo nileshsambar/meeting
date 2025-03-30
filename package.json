@@ -1,6 +1,7 @@
 {
   "name": "final",
   "version": "0.1.0",
+  "homepage": "https://nileshsambar.github.io/meeting",
   "private": true,
   "dependencies": {
     "@heroicons/react": "^1.0.6",
