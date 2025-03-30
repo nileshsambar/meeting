@@ -64,7 +64,7 @@ export default function SignUp() {
         localStorage.setItem("email",data.email)
         localStorage.setItem("first",data.first)
         localStorage.setItem("last",data.last)
-        navigate("/meetings/preferences",{state:registerData})
+        navigate("/preferences",{state:registerData})
       } else {
         wrongToast(data.already)
       }
@@ -125,7 +125,7 @@ export default function SignUp() {
       <div className="w-1/2 flex flex-col justify-center items-center p-10">
         <ToastContainer/>
         <h2 className="text-2xl font-bold">Create an account</h2>
-        <Link to="/meetings/signin" className="text-blue-500">Sign in instead</Link>
+        <Link to="/signin" className="text-blue-500">Sign in instead</Link>
         <form onSubmit={handleSubmit} className="w-full max-w-sm mt-4">
           <input onChange={handleRegisterChange} name="first" type="text" placeholder="First name" className="w-full p-2 mb-2 border rounded" required />
           <input onChange={handleRegisterChange} name="last" type="text" placeholder="Last name" className="w-full p-2 mb-2 border rounded" required />

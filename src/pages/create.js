@@ -150,7 +150,7 @@ const Create = () => {
 
     {/* Fixed Footer Buttons */}
     <div className="flex p-1 justify-around w-full">
-      <a href="/meetings/events" className="cancel">Cancel</a>
+      <a href="/events" className="cancel">Cancel</a>
       <button className="save" onClick={handleSubmit}>Save</button>
     </div>
 

@@ -5,12 +5,12 @@ export default function Home() {
     <div className="bg-gray-100 min-h-screen font-sans">
       <header className="bg-white shadow-md p-4 flex justify-between items-center px-8">
         <h1 className="text-xl font-bold">NILESH</h1>
-        <a className="bg-blue-500 text-white px-6 py-2 rounded-lg" href="/meetings/signup/">Sign up free</a>
+        <a className="bg-blue-500 text-white px-6 py-2 rounded-lg" href="/signup">Sign up free</a>
       </header>
       
       <main className="max-w-5xl mx-auto py-12 text-center">
         <h2 className="text-3xl font-bold mb-4">NILESH – Easy Scheduling Ahead</h2>
-        <a href="/meetings/signup" className="bg-blue-500 text-white px-6 py-2 rounded-lg mb-8">Sign up free</a>
+        <a href="/signup" className="bg-blue-500 text-white px-6 py-2 rounded-lg mb-8">Sign up free</a>
         
         <div className="bg-white p-6 shadow-lg rounded-lg flex justify-center">
           <img src="https://plus.unsplash.com/premium_photo-1661774861781-e540fbc29330?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8bWVldGluZ3xlbnwwfHwwfHx8MA%3D%3D" alt="Booking Dashboard" className="rounded-lg shadow-md" />
@@ -59,8 +59,8 @@ export default function Home() {
       
       <footer className="bg-white p-6 text-center shadow-md mt-12">
         <div className="flex justify-center space-x-4 mb-4">
-          <a href="/meetings/signin" className="bg-gray-200 px-6 py-2 rounded-lg">Log in</a>
-          <a href="/meetings/signup" className="bg-blue-500 text-white px-6 py-2 rounded-lg">Sign up free</a>
+          <a href="/signin" className="bg-gray-200 px-6 py-2 rounded-lg">Log in</a>
+          <a href="/signup" className="bg-blue-500 text-white px-6 py-2 rounded-lg">Sign up free</a>
         </div>
         <p className="text-gray-600">© 2025 NILESH. All rights reserved.</p>
       </footer>

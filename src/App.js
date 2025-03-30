@@ -19,7 +19,7 @@ function App() {
 
   return (
 
-    <Router basename='/meeting'>
+    <Router>
       
       
      

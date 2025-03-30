@@ -64,7 +64,7 @@ export default function SignIn() {
           localStorage.setItem("email",data.email)
           localStorage.setItem("first",data.first)
           localStorage.setItem("last",data.last)
-        navigate("/meetings/events",{state:data})
+        navigate("/events",{state:data})
 
         } else {
           wrongToast(data.message)
@@ -127,7 +127,7 @@ const validate = () => {
       <ToastContainer />
 
         </form>
-        <Link to="/meetings/signup" className="mt-2 text-blue-800">Sign up</Link>
+        <Link to="/signup" className="mt-2 text-blue-800">Sign up</Link>
       </div>
       <div className="w-1/2 bg-cover bg-center" style={{ backgroundImage: "url('human.png')" }}>
         {/* Right-side image */}
