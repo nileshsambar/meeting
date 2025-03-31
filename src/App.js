@@ -26,15 +26,15 @@ function App() {
           
       <Routes>
         <Route path="/meeting/" element={<Home />} />
-        <Route path="/signup/" element={<SignUp />} />
-        <Route path="/signin/" element={<SignIn />} />
-        <Route path="/preferences" element={<UserPreferences />} />
+        <Route path="/meeting/signup/" element={<SignUp />} />
+        <Route path="/meeting/signin/" element={<SignIn />} />
+        <Route path="/meeting/preferences" element={<UserPreferences />} />
         
-        <Route path="/events" element={<Events />} />
-        <Route path="/create" element={<Create />} />
-        <Route path="/bookings" element={<Bookings />} />
-        <Route path="/availability" element={<Availability />} />
-        <Route path="/settings" element={<Settings />} />
+        <Route path="/meeting/events" element={<Events />} />
+        <Route path="/meeting/create" element={<Create />} />
+        <Route path="/meeting/bookings" element={<Bookings />} />
+        <Route path="/meeting/availability" element={<Availability />} />
+        <Route path="/meeting/settings" element={<Settings />} />
       </Routes>
       
     </Router>
