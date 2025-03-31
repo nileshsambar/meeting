@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <div className="bg-gray-100 min-h-screen font-sans">
       <header className="bg-white shadow-md p-4 flex justify-between items-center px-8">
-        <h1 className="text-xl font-bold">NILESH SAMBAR</h1>
+        <h1 className="text-xl font-bold">NILESH </h1>
         <a className="bg-blue-500 text-white px-6 py-2 rounded-lg" href="/signup">Sign up free</a>
       </header>
       
