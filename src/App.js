@@ -26,9 +26,9 @@ function App() {
           
       <Routes>
         <Route path="/meeting/" element={<Home />} />
-        <Route path="/meeting/signup/" element={<SignUp />} />
-        <Route path="/meeting/signin/" element={<SignIn />} />
-        <Route path="/meeting/preferences" element={<UserPreferences />} />
+        <Route path="meeting/signup/" element={<SignUp />} />
+        <Route path="meeting/signin/" element={<SignIn />} />
+        <Route path="meeting/preferences" element={<UserPreferences />} />
         
         <Route path="/meeting/events" element={<Events />} />
         <Route path="/meeting/create" element={<Create />} />
