@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import { BrowserRouter as Router, Routes, Route, useLocation } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route, useLocation, BrowserRouter } from "react-router-dom";
 import Home from './pages/home';
 import SignUp from './pages/signup';
 import SignIn from './pages/signin';
@@ -19,15 +19,15 @@ function App() {
 
   return (
 
-    <Router>
+    <BrowserRouter>
       
       
      
           
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/signup/" element={<SignUp />} />
-        <Route path="/signin/" element={<SignIn />} />
+        <Route path="/signup" element={<SignUp />} />
+        <Route path="/signin" element={<SignIn />} />
         <Route path="/preferences" element={<UserPreferences />} />
         
         <Route path="/events" element={<Events />} />
@@ -37,7 +37,7 @@ function App() {
         <Route path="/settings" element={<Settings />} />
       </Routes>
       
-    </Router>
+    </BrowserRouter>
     
     
   );
